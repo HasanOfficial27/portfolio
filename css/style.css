@@ -289,23 +289,26 @@ body {
   background-color: var(--theme-color);
   z-index: -1;
 } */
- /* .aboutImgCon::after {
+ .aboutImgCon::after {
   content: "";
   position: absolute;
-  left: 220px;
-  bottom: 150px;
-  width: 350px;
-  height: 350px;
-  background-color: var(--theme-color);
-  z-index: 4;
-  border-radius: 50%;
+  left: 250px;
+  bottom: 50px;
+  width: 250px;
+  height: 250px;
+  z-index: 0;
   opacity: 0.125;
-} */
+  background-image: url(../image/header_bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: spinTheBg 10s linear infinite;
+}
 .aboutImgCon::before {
   content: "";
   position: absolute;
-  left: 130px;
-  bottom: 100px;
+  left: 400px;
+  bottom: 200px;
   width: 500px;
   height: 500px;
   /* background-color: var(--header-background2); */
